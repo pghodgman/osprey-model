@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  data: 
+  kind: 1
+  version: 1
+
+two:
+  data: 
+  kind: 1
+  version: 1
