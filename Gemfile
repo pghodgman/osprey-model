@@ -34,4 +34,6 @@ gem 'execjs'
 
 gem 'therubyracer', :platforms => :ruby
 
+gem 'libv8'
+
 

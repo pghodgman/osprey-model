@@ -129,6 +129,7 @@ DEPENDENCIES
   execjs
   jbuilder (~> 1.0.1)
   jquery-rails
+  libv8
   rails (= 4.0.0)
   resque
   sass-rails (~> 4.0.0)
