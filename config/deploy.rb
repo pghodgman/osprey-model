@@ -51,10 +51,11 @@ namespace :bundle do
   end
 
 end
+before "deploy:restart", "bundle:update"
 before "deploy:restart", "bundle:install"
 
 after 'deploy:update_code', 'deploy:migrate'
-set :keep_releases, 2
+set :keep_releases, 10
 after "deploy:restart", "deploy:cleanup"
 
 # set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names

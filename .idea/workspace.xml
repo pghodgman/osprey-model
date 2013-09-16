@@ -41,7 +41,7 @@
     <file path="/items_controller.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379206729755" ignored="false" />
     <file path="/20130915140035_add_preview_to_model.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379253680249" ignored="false" />
     <file path="/20130915143011_add_model_meta_data.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379255570038" ignored="false" />
-    <file path="/deploy.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379263286073" ignored="false" />
+    <file path="/deploy.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379290092739" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <file leaf-file-name="Capfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Capfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="4" column="29" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,7 +102,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="60" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
+            <state line="53" column="39" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,7 +111,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="157" selection-end="157" vertical-scroll-proportion="0.22058824">
+            <state line="37" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="1.1659664">
               <folding />
             </state>
           </provider>
@@ -138,7 +138,7 @@
       <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/transform.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130913165405_add_transform_foriegn_key.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130913173726_add_foreign_key_to_location.rb" />
         <option value="$PROJECT_DIR$/app/models/location.rb" />
@@ -176,8 +175,9 @@
         <option value="$PROJECT_DIR$/app/controllers/models_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130915143011_add_model_meta_data.rb" />
         <option value="$PROJECT_DIR$/app/io/model_processor.rb" />
-        <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/config/initializers/session_store.rb" />
+        <option value="$PROJECT_DIR$/Capfile" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
@@ -815,23 +815,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Capfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="60" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -850,9 +836,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Capfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="29" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="39" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="157" selection-end="157" vertical-scroll-proportion="0.22058824">
+        <state line="37" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="1.1659664">
           <folding />
         </state>
       </provider>
