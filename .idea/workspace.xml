@@ -41,7 +41,7 @@
     <file path="/items_controller.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379206729755" ignored="false" />
     <file path="/20130915140035_add_preview_to_model.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379253680249" ignored="false" />
     <file path="/20130915143011_add_model_meta_data.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379255570038" ignored="false" />
-    <file path="/deploy.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379291045179" ignored="false" />
+    <file path="/deploy.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379291360948" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,19 +99,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="60" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.0">
+            <state line="12" column="57" selection-start="378" selection-end="378" vertical-scroll-proportion="-1.462203">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="11" selection-start="830" selection-end="830" vertical-scroll-proportion="0.71638656">
+            <state line="39" column="126" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -843,16 +843,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="60" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.0">
+        <state line="39" column="126" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="11" selection-start="830" selection-end="830" vertical-scroll-proportion="0.71638656">
+        <state line="12" column="57" selection-start="378" selection-end="378" vertical-scroll-proportion="-1.462203">
           <folding />
         </state>
       </provider>

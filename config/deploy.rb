@@ -10,7 +10,7 @@ set :deploy_to, "/home/ec2-user/apps/#{application}"
 
 
 # The address of the remote host on EC2 (the Public DNS address)
-set :location, "ec2-54-211-181-43.compute-1.amazonaws.com"
+set :location, "ec2-54-211-224-42.compute-1.amazonaws.com"
 # setup some Capistrano roles
 role :app, location
 role :web, location
@@ -49,14 +49,12 @@ namespace :bundle do
   task :install do
     run "cd #{current_path} && bundle install"
   end
-
+  task :update do
+    run "cd #{current_path} && bundle update"
+  end
 end
 
-before 'deploy:assets:precompile', 'bundle:install'
 before "deploy:restart", "bundle:install"
-
-after 'deploy:update_code', 'bundle:install'
-after 'deploy:update_code', 'deploy:migrate'
 set :keep_releases, 10
 after "deploy:restart", "deploy:cleanup"
 
