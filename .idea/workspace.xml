@@ -41,7 +41,7 @@
     <file path="/items_controller.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379206729755" ignored="false" />
     <file path="/20130915140035_add_preview_to_model.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379253680249" ignored="false" />
     <file path="/20130915143011_add_model_meta_data.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379255570038" ignored="false" />
-    <file path="/deploy.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379290092739" ignored="false" />
+    <file path="/deploy.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379291045179" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="39" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0">
+            <state line="55" column="60" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,7 +111,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="11" selection-start="830" selection-end="830" vertical-scroll-proportion="0.7794118">
+            <state line="36" column="11" selection-start="830" selection-end="830" vertical-scroll-proportion="0.71638656">
               <folding />
             </state>
           </provider>
@@ -177,8 +177,8 @@
         <option value="$PROJECT_DIR$/app/io/model_processor.rb" />
         <option value="$PROJECT_DIR$/config/initializers/session_store.rb" />
         <option value="$PROJECT_DIR$/Capfile" />
-        <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
       </list>
     </option>
   </component>
@@ -845,14 +845,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="39" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0">
+        <state line="55" column="60" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="11" selection-start="830" selection-end="830" vertical-scroll-proportion="0.7794118">
+        <state line="36" column="11" selection-start="830" selection-end="830" vertical-scroll-proportion="0.71638656">
           <folding />
         </state>
       </provider>

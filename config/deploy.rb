@@ -51,9 +51,11 @@ namespace :bundle do
   end
 
 end
-before "deploy:restart", "bundle:update"
+
+before 'deploy:assets:precompile', 'bundle:install'
 before "deploy:restart", "bundle:install"
 
+after 'deploy:update_code', 'bundle:install'
 after 'deploy:update_code', 'deploy:migrate'
 set :keep_releases, 10
 after "deploy:restart", "deploy:cleanup"
