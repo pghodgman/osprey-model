@@ -8,7 +8,7 @@
     <file path="/routes.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379253197759" ignored="false" />
     <file path="/application_controller.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379005616593" ignored="false" />
     <file path="/Dummy.txt" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379422828291" ignored="false" />
-    <file path="/Gemfile" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379287276959" ignored="false" />
+    <file path="/Gemfile" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379774574294" ignored="false" />
     <file path="/model_processor.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379255703134" ignored="false" />
     <file path="$PROJECT_DIR$/../Rodin/public/home.htm" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379075409450" ignored="false" />
     <file path="/model.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379094063711" ignored="false" />
@@ -117,19 +117,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="40" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
+            <state line="42" column="47" selection-start="902" selection-end="902" vertical-scroll-proportion="0.8206687">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="48" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.54711246">
+            <state line="24" column="48" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,8 +177,8 @@
         <option value="$PROJECT_DIR$/public/hello.html" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -890,16 +890,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="40" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
+        <state line="24" column="48" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="48" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.54711246">
+        <state line="42" column="47" selection-start="902" selection-end="902" vertical-scroll-proportion="0.8206687">
           <folding />
         </state>
       </provider>
