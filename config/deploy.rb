@@ -53,7 +53,7 @@ namespace :bundle do
     run "cd #{current_path} && bundle update"
   end
 end
-
+after "deploy:update_code", "deploy:migrate"
 before "deploy:restart", "bundle:install"
 set :keep_releases, 10
 after "deploy:restart", "deploy:cleanup"
