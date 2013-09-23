@@ -20,7 +20,11 @@ class ModelProcessor
     get_location(model, model_file, directory['IMAG'])
     get_preview(model, model_file, directory['PRVW'])
     get_meta(model, model_file, directory['META'])
-    get_levels(model, model_file, directory['LEVS'])
+
+    if (directory.has_key?('LEVS'))
+       get_levels(model, model_file, directory['LEVS'])
+    end
+
 
 
   end
