@@ -8,6 +8,7 @@ OspreyModel::Application.routes.draw do
   get 'models/:id/bodies'  => 'models#bodies'
   get 'models/:id/location'  => 'models#location'
   get 'models/:id/preview' => 'models#preview'
+  get 'models/:id/levels'  => 'models#levels'
 
 
   get 'bodies' => 'bodies#all'

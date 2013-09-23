@@ -20,6 +20,7 @@ class ModelProcessor
     get_location(model, model_file, directory['IMAG'])
     get_preview(model, model_file, directory['PRVW'])
     get_meta(model, model_file, directory['META'])
+    get_levels(model, model_file, directory['LEVS'])
 
 
   end
@@ -201,6 +202,40 @@ class ModelProcessor
     model.gross_area = gross_area
     model.save
   end
+
+  def self.get_levels(model, model_file, offset)
+    model_file.seek(offset, IO::SEEK_SET)
+
+    block_id = model_file.read(4).unpack("L").first
+    version = model_file.read(4).unpack("L").first
+    size = model_file.read(4).unpack("L").first
+    cksum = model_file.read(4).unpack("L").first
+
+    num_levels = model_file.read(4).unpack("L").first
+
+    num_levels.times do |n|
+      # skip header
+      model_file.read(16)
+
+      # level
+      uuid = model_file.read(16)
+      elevation = model_file.read(8).unpack("D").first
+      namesize = model_file.read(4).unpack("L").first
+      name = model_file.read(namesize)
+
+      level = Level.new
+      level.uuid = uuid
+      level.elevation = elevation
+      level.name = name
+      level.model = model
+      level.save
+
+
+    end
+
+
+  end
+
 
 
 end

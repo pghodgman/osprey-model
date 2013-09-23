@@ -5,20 +5,20 @@
     <ignored path="osprey-model.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/files_controller.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379103532285" ignored="false" />
-    <file path="/routes.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379253197759" ignored="false" />
+    <file path="/routes.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379870739591" ignored="false" />
     <file path="/application_controller.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379005616593" ignored="false" />
     <file path="/Dummy.txt" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379422828291" ignored="false" />
     <file path="/Gemfile" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379774574294" ignored="false" />
-    <file path="/model_processor.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379255703134" ignored="false" />
+    <file path="/model_processor.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379887866925" ignored="false" />
     <file path="$PROJECT_DIR$/../Rodin/public/home.htm" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379075409450" ignored="false" />
-    <file path="/model.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379094063711" ignored="false" />
+    <file path="/model.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379870901739" ignored="false" />
     <file path="/body.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379089556117" ignored="false" />
     <file path="/20130913160904_add_model_foreign_keys.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379088707970" ignored="false" />
     <file path="/transform.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379090129450" ignored="false" />
     <file path="/20130913165405_add_transform_foriegn_key.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379091316637" ignored="false" />
     <file path="/20130913173726_add_foreign_key_to_location.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379093909257" ignored="false" />
     <file path="/location.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379094049536" ignored="false" />
-    <file path="/models_controller.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379254275492" ignored="false" />
+    <file path="/models_controller.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379888098459" ignored="false" />
     <file path="/bodies_controller.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379110165546" ignored="false" />
     <file path="/locations_controller.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379110616650" ignored="false" />
     <file path="$PROJECT_DIR$/../grape/app/models/robject.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379200377717" ignored="false" />
@@ -44,6 +44,12 @@
     <file path="/deploy.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379291360948" ignored="false" />
     <file path="$PROJECT_DIR$/../../openid/omniauth/config/deploy.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379354119140" ignored="false" />
     <file path="/database.yml" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379774127227" ignored="false" />
+    <file path="/level.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379778618104" ignored="false" />
+    <file path="/20130921155057_add_model_id_to_level.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379778697491" ignored="false" />
+    <file path="/20130922214948_remove_string_uuid.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379886625996" ignored="false" />
+    <file path="/20130922215700_remove_uuid.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379887085301" ignored="false" />
+    <file path="/20130922215852_add_uuid_binary.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379887167312" ignored="false" />
+    <file path="/body_level.rb" changelist="f70c7895-ddb5-4f25-9d45-626a9ff47b6b" time="1379898593720" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,19 +69,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="model_processor.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/io/model_processor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+            <state line="220" column="0" selection-start="6337" selection-end="6337" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="body.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/body.rb">
+      <file leaf-file-name="body_level.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/body_level.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="67" selection-end="72" vertical-scroll-proportion="0.0">
+            <state line="1" column="18" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="37" selection-start="326" selection-end="326" vertical-scroll-proportion="0.21920668">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/models_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="61" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transactions.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/transactions.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="285" column="0" selection-start="12235" selection-end="12235" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rescue.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130922215700_remove_uuid.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130922215700_remove_uuid.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="32" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,64 +141,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Capfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Capfile">
+      <file leaf-file-name="20130922215852_add_uuid_binary.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130922215852_add_uuid_binary.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+            <state line="5" column="19" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="57" selection-start="337" selection-end="378" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/hello.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="7" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="47" selection-start="902" selection-end="902" vertical-scroll-proportion="0.8206687">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="48" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="30" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,22 +169,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/model.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/files_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/bodies_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130915140035_add_preview_to_model.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/models_controller.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130915143011_add_model_meta_data.rb" />
-        <option value="$PROJECT_DIR$/app/io/model_processor.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/session_store.rb" />
         <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/public/hello.html" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/level.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130921155057_add_model_id_to_level.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/model.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130922214948_remove_string_uuid.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130922215700_remove_uuid.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130922215852_add_uuid_binary.rb" />
+        <option value="$PROJECT_DIR$/app/io/model_processor.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/models_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/body_level.rb" />
       </list>
     </option>
   </component>
@@ -190,10 +196,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -221,7 +226,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,38 +255,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osprey-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osprey-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osprey-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osprey-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,6 +379,7 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -714,15 +687,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="22" width="1440" height="806" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278237" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28550932" sideWeight="0.7385892" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26068965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29411766" sideWeight="0.74022347" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25977653" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278237" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -796,82 +769,85 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/io/model_processor.rb</url>
+          <line>220</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/model.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="92" selection-start="211" selection-end="343" vertical-scroll-proportion="0.0" />
+        <state line="3" column="18" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130915143011_add_model_meta_data.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/level.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="60" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" />
+        <state line="3" column="57" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/models_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130921155057_add_model_id_to_level.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="82" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/io/model_processor.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="56" selection-start="5824" selection-end="5824" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+        <state line="3" column="18" selection-start="50" selection-end="114" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/session_store.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130922214948_remove_string_uuid.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+        <state line="7" column="12" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/development.sqlite3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.777778" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/files_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Capfile">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/transactions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+        <state line="285" column="0" selection-start="12235" selection-end="12235" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/hello.html">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+        <state line="30" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130922215700_remove_uuid.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="57" selection-start="337" selection-end="378" vertical-scroll-proportion="0.0">
+        <state line="5" column="32" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/body.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130922215852_add_uuid_binary.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="67" selection-end="72" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+        <state line="5" column="19" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -883,23 +859,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/models_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
+        <state line="14" column="61" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/app/io/model_processor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="48" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0">
+        <state line="220" column="0" selection-start="6337" selection-end="6337" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/models/body_level.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="47" selection-start="902" selection-end="902" vertical-scroll-proportion="0.8206687">
+        <state line="1" column="18" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="37" selection-start="326" selection-end="326" vertical-scroll-proportion="0.21920668">
           <folding />
         </state>
       </provider>

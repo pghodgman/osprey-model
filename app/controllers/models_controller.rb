@@ -11,6 +11,9 @@ class ModelsController < ApplicationController
   def location
     render json: Model.find(params[:id]).location, :except=>  [:image]
   end
+  def levels
+    render json: Model.find(params[:id]).levels, :except=>  [:uuid]
+  end
   def preview
     model = Model.find(params[:id])
     send_data model.preview, :type => 'image/png',:disposition => 'inline'

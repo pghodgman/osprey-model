@@ -11,7 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130915143011) do
+ActiveRecord::Schema.define(version: 20130923010804) do
+
+  create_table "b_levels", force: true do |t|
+    t.string   "name"
+    t.binary   "uuid"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "bodies", force: true do |t|
     t.binary   "data"
@@ -20,6 +27,22 @@ ActiveRecord::Schema.define(version: 20130915143011) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "model_id"
+  end
+
+  create_table "body_levels", force: true do |t|
+    t.string   "name"
+    t.binary   "uuid"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "levels", force: true do |t|
+    t.float    "elevation"
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "model_id"
+    t.binary   "uuid"
   end
 
   create_table "locations", force: true do |t|

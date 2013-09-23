@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  uuid: MyString
+  elevation: 1.5
+  name: MyString
+
+two:
+  uuid: MyString
+  elevation: 1.5
+  name: MyString
